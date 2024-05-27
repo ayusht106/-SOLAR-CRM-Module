@@ -1,0 +1,10 @@
+const router = require("express").Router();
+const detailscontroller = require('../Controller/detailscontroller');
+router.post("/", detailscontroller.detail_create);
+router.get("/", detailscontroller.detail_all);
+router.get("/:detailId", detailscontroller.detail_d);
+router.put("/:detailId", detailscontroller.detail_update);
+router.delete("/:detailId", detailscontroller.detail_delete);
+router.get("/cities/:state", detailscontroller.getCitiesByState);
+router.get("/c/c/states",detailscontroller.getStates);
+ module.exports = router;
