@@ -1,0 +1,137 @@
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #313949;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0px;
+    z-index: 1000;
+}
+
+nav .title {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 500px;
+}
+
+nav ul li {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* nav ul li:hover {
+    text-decoration: underline;
+} */
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+} */
+
+.rig {
+    margin-left: 450px;
+    font-size: 25px;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    max-height:500px;
+    z-index: 1000;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 0px;
+    margin-left: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* font-size: 10px; */
+    /* padding: 10px; */
+}
+
+.ab{
+    height: 20px;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 20px;
+    width:50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.abc{
+    height: 20px;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 20px;
+    width:50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+.dropdown-content li {
+    /* padding-left: 0px; */
+    width: 177px;
+    /* height:30px; */
+    align-items: center;
+    /* border-radius: 5px; */
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-content li a:hover {
+    color: white;
+}
+
+.dropdown-content li a{
+    margin-top: 10px;
+}
+
+.dropdown-content li:hover{
+    background-color:#313949;
+    border-radius: 5px;
+    color: white;
+}
+
+.abc:hover{
+    color: white;
+}
+
+.dropdown{
+    cursor: pointer;
+    font-size: large;
+    margin-left: 0px;
+}

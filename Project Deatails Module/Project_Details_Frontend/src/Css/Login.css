@@ -1,0 +1,123 @@
+.bgc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/public/sola.jpg');
+    background-color: #edf0f4;
+    background-size: cover;
+    background-position: center;
+    /* filter: brightness(50%); */
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .formb {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    /* border-radius: 50px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .input-fd {
+    display: block;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+
+  .input-fd:hover{
+    border: 1px solid gray;
+}
+
+.input-fd:focus{
+    border-color: lightgray;
+    outline: none;
+}
+
+.imag{
+  margin-left: 10px;
+}
+
+.but{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom,  #2da1ee,#4a84ac);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px; 
+    border: 1px solid lightgray;
+    width: 370px;
+}
+
+.para{
+  margin-top: 50px;
+  justify-content: left;
+  display: flex;
+  margin-left: 50px;
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-style: bold;
+}
+
+.paras{
+  justify-content: left;
+  display: flex;
+  margin-left: 50px;
+  font-size: 15px;
+  margin-top: 0px;
+  align-items: center;
+
+}
+
+  label{
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  .cont{
+    margin-top: 50px;
+  }
+  
+  /* .formb button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .formb button:hover {
+    background-color: #0056b3;
+  } */
+
+  /* body{
+    margin-top: 0px;
+  }
+   */

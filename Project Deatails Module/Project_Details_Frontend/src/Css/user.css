@@ -1,0 +1,78 @@
+.crm{
+    text-decoration: none;
+    color: black;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.riit-button{
+    display: flex;
+    margin-left: 780px;
+    /* margin-top: 40px; */
+    margin-right: 10px;
+}
+
+.fields{
+    margin-left: 100px;
+}
+
+.rit-button{
+    margin-top: 40px ;
+    margin-right: 10px;
+}
+
+.buutton{
+    margin-left: 11px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom,  #2da1ee,#4a84ac);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px; 
+    border: 1px solid lightgray;
+}
+    
+.buttonss {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to top, rgb(249, 247, 247), rgb(248, 244, 244)); /* Blue color */
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+}
+  
+
+.pa{
+    text-align: left;
+    margin-left: 0cm;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 55px;
+     /* margin: 10px; */
+}
+  
+.riit-button{
+    margin-right: 20px;
+}
+
+.same{
+    margin-left: 20px;
+}

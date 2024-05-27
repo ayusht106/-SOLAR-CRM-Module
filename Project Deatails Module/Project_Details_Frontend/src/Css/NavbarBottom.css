@@ -1,0 +1,68 @@
+.Navbarb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    height: 23px;
+    width: 100%;
+    /* margin-top: 560px; */
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    text-align: right;
+}
+
+/* nav .title {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+} */
+
+.ull {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding: 0;
+    margin-left: 920px;
+}
+
+.lii {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    margin-left: 15px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding-right: 5px;
+}
+
+.liii{
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    color: black;
+    /* padding: 3px; */
+    margin-left: 2px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding-right: 5px;
+    /* background-image: linear-gradient(to bottom,  #a16cba,#a786e3); */
+}
+
+.icc{
+    padding-left: 10px;
+}
+
+.iccc{
+    padding-left: 10px;
+    margin-top: 4px;
+}
