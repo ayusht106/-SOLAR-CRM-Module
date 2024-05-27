@@ -1,0 +1,99 @@
+
+/* body{
+    background-color: #edf0f4;
+} */
+
+form{
+    border: 2px solid #6b6969;
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+    width: 18cm;
+    height: 8cm;
+    box-shadow: 1px solid #f5f5f5;
+    background-color: white;
+}
+
+
+.fields{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rit-button{
+    margin-left: 1200px;
+    margin-top: 5px;
+}
+
+.fm-row{
+    margin-left: 30px;
+    height: 40px;
+}
+
+.fmm-row{
+    margin-left: 30px;
+    height: 40px;
+}
+
+.fmm-row label{
+
+    margin-right: 65px;
+}
+
+.fm-row label{
+    font: 1em sans-serif;
+    font-style: bold;
+
+}
+
+
+.fmmm-row label{
+    margin-right: 100px;
+}
+
+.aa{
+    border:1px solid lightgray;
+    margin-left: 20px;
+    font-size: 17px;
+
+}
+
+.ab{
+    border:1px solid lightgray;
+    margin-left: 50px;
+    font-size: 17px;
+
+}
+
+.ac{
+    border:1px solid lightgray;
+    margin-left: 37px;
+    font-size: 17px;
+
+}
+
+.ad{
+    border:1px solid lightgray;
+    margin-left: 47px;
+    font-size: 17px;
+
+}
+.ae{
+    border:1px solid lightgray;
+    margin-left: 60px;
+    font-size: 17px; 
+}
+
+.af{
+    border:1px solid lightgray;
+    margin-left: 55px;
+    font-size: 17px;    
+}
+
+form{
+    text-align: center;
+}

@@ -1,0 +1,157 @@
+body{
+  margin-top: 0px;
+}
+
+.Mmain{
+background-color: #edf0f4;
+}
+
+h2{
+  margin-top: 0px;
+}
+
+
+h4{
+  font-weight: normal;
+}
+
+
+th{
+  font-weight: normal;
+}
+.table-container {
+  width: 77%; 
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+  padding: 0px;
+  margin-top: 2px;
+  max-height: 520px; 
+  overflow-x: auto;
+  position: relative;
+  box-shadow: 0 0 30px #d5d1d1;
+  margin-left: 330px;
+  border-radius: 10px;
+  height: 600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 600px;
+  }
+  
+  thead {
+    background-color: white; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  tbody{
+    background-color: white;
+  }
+  th, td {
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+    /* min-width: 150px;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+  }
+  
+   tr:hover{
+    background-color: #f5f5f5; 
+  }
+
+   tr .hover-row a {
+    color: #2da1ee; 
+  }
+
+
+ .Rigt-button{
+     margin-top: 10px;
+     display: flex;
+     margin-bottom: 10px;
+     background-color: white;
+     /* margin-left: 200px; */
+  }
+
+  .table-container a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .butto a{
+    text-decoration: none;
+    color: white;
+  }
+/* 
+  .z a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+  } */
+
+  h2{
+    margin-left: 50px;
+  }
+
+ .butto {
+    margin-top: 0px;
+    margin-left: 1250px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom,  #2da1ee,#4a84ac);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px; 
+    border: 1px solid lightgray;
+  }
+  
+  .pagination{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  height: 35px;
+  }
+
+   .zz{
+    margin-left: 1160px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+  } 
+
+  .zzz{
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    /* transition: border 0.5s ease-in-out; */
+  } 
+
+  .zzz:hover{
+    border: 1px solid #f5f5f5;
+    border-radius: 100%;
+    background-color:  #f5f5f5;
+    
+  }
+
+  
+  .zz:hover{
+    border: 1px solid #f5f5f5;
+    border-radius: 100%;
+    background-color:  #f5f5f5;
+    
+  }

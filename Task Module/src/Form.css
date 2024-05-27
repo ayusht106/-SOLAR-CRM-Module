@@ -1,0 +1,169 @@
+
+.custom-line {
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 10px;
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.head{
+  text-align: left;
+  margin-left: 0cm;
+  display:flex;
+  /* justify-content: space-between; */
+  align-items: center;
+   margin: 10px;
+}
+
+.main{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: none;
+  
+}
+ 
+
+.right-button{
+  display: flex;
+  margin-left: 800px;
+}
+
+
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: white;
+  position: relative;
+  margin-top: 30px;
+}
+
+
+.M{
+  margin-top: 60px; 
+  margin-left: 1.5cm;
+}
+
+
+.form-row label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 10px;
+  border: none !important;
+  border-radius: 0 !important;
+  font-size: 16px;
+}
+
+.form-row .a{
+  margin-left: 6cm;
+}
+
+.form-row .b{
+  margin-left: 6.7cm;
+}
+
+.form-row .c{
+  margin-left: 6.2cm;
+}
+
+.form-row .d{
+  margin-left: 6.6cm;
+}
+
+.form-row .e{
+  margin-left: 6.5cm;
+}
+
+.form-row .f{
+  margin-left: 6.6cm;
+}
+
+.form-row .g{
+  margin-left: 6.6cm;
+}
+
+
+
+
+
+
+
+
+
+.form-row input[type="text"],
+.form-row input[type="date"] {
+  border: none;
+  border-bottom: 2px solid rgb(183, 181, 181);
+  /* margin-left: 8cm;  */
+}
+
+
+.form-row input[type="text"] {
+  color: rgb(12, 9, 9)
+}
+
+
+
+.form-row input:focus {
+  outline: none;
+}
+
+
+.buttons {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-image: linear-gradient(to top, rgb(249, 247, 247), rgb(248, 244, 244)); /* Blue color */
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height:30px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+}
+
+
+.button{
+  margin-left: 11px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom,  #2da1ee,#4a84ac);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px; 
+    border: 1px solid lightgray;
+}
+
+
+.buttons:hover{
+  background-image: linear-gradient(to top, lightgrey, white);
+}
+
+
+.form-row hr {
+  display: none;
+}
+
